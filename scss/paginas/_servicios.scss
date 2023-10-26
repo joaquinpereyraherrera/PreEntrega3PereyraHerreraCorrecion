@@ -1,0 +1,27 @@
+/*MAIN SERVICIOS SECTION*/
+main{
+    .carousel-caption{
+        h2{
+            margin-left: 25px;
+            margin-top: 40px;
+            font-family: 'Merriweather', serif;
+        }
+        p{
+            margin-left: 25px;
+            margin-top: 15px;
+            font-family: 'Merriweather', serif;
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+    }
+    .img-carousel{
+        text-align: center;
+        max-width: 600px;
+        max-height: 650px;
+    }
+    
+    .carousel-foto{
+        width: 100%;
+        height: 750px;
+    }
+}

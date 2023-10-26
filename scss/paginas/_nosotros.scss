@@ -1,0 +1,48 @@
+/*MAIN NOSOTROS SECTION*/
+main{
+    .texto-nosotros{
+        h1{
+            text-align: center;
+            margin-top: 50px;
+            font-family: 'Merriweather', serif;
+        }
+        h2{
+            text-align: center;
+            margin-top: 25px;
+            font-family: 'Merriweather', serif;
+            text-align: justify;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+        p{
+            margin-top: 0;
+            margin-bottom: 1rem;
+            text-align: justify;
+            margin-left: 15%;
+            margin-right: 15%;
+            font-family: 'Merriweather', serif;
+        }
+    }
+    .imagen-nosotros{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        max-width: 500px;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .nosotros-bloque{
+        h2{
+            text-align: center;
+            margin-top: 25px;
+            font-family: 'Merriweather', serif;
+        }
+        p{
+            text-align: center;
+            margin-top: 25px;
+            font-family: 'Merriweather', serif;
+            margin-bottom: 25px;
+        }
+    }
+}

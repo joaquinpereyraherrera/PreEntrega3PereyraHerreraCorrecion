@@ -1,0 +1,136 @@
+/* Medias Queries*/
+
+/*desktop*/
+@media (min-width: 1024px){
+
+}
+
+/*tablet*/
+@media (min-width: 576px) and (max-width: 700px){
+    
+}
+
+/*mobile*/
+@media (min-width: 320px) and (max-width: 480px){
+    /*INDEX*/
+    main{
+        
+        justify-content: center;
+    }
+    main div #logo-main img{
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    main section div .row-fluid h1{
+        font-size:25px;
+    }
+    main section div .row-fluid h2{
+        font-size:20px;
+    }
+    /*NOSOTROS*/
+    main .texto-nosotros div h1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size:20%;
+        margin-right: 20%;
+    }
+    main .texto-nosotros div h3{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size:25px;
+    }
+    main div .nosotros-bloque img .imagen-nosotros{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .imagen-nosotros{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    /*Nuestros CLIENTES*/
+    .imagenes-empresas{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    }
+    main div .texto-clientes{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    }
+    .empresa-logo{
+        max-width: 300px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    /*SERVICIOS*/
+    .carousel-foto{ 
+        width: 100%;
+        height: 550px;
+    }
+
+    /*CONTACTENOS*/
+    .form-group{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .div-cuadro{
+        font-family:"Open Sans", sans-serif;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #form-boton-enviar{
+        background-color: rgb(250, 150, 0);
+        color: black;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-bottom: 5%;
+        margin-left: 0;
+        
+    }
+    
+    #form-boton-borrar{
+        background-color: rgb(250, 150, 0);
+        color: black;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-bottom: 5%;
+        margin-left:2%; 
+        margin-right: 20%;
+    }
+
+    /*Cotizaciones*/
+    .texto-cotizacion-alquiler h1{
+        text-align: center;
+        margin-top: 50px;
+        font-family: 'Merriweather', serif;
+        color: black;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .texto-cotizacion-alquiler h3{
+        margin-top: 25px;
+        font-family: 'Merriweather', serif;
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

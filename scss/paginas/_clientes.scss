@@ -1,0 +1,39 @@
+/*MAIN CLIENTES SECTION*/
+main{
+    .texto-clientes{
+        h1{
+            text-align: center;
+            margin-top: 50px;
+            font-family: 'Merriweather', serif;
+        }
+        h3{
+            text-align: center;
+            margin-top: 25px;
+            font-family: 'Merriweather', serif;
+        }
+        h2{
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: 'Merriweather', serif;
+        }
+        p{
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: 'Merriweather', serif;
+        }
+    }
+    .imagenes-empresas{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    
+    .empresa-logo{
+        width: 250px;
+        height: 150px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        box-shadow: 0 0 10px black; 
+    }
+}

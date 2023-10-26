@@ -1,0 +1,21 @@
+/*MAIN SECTION INTRODUCCION*/
+main{
+    #hero{
+        background: url(../img/nuevofondopagph.jpg);
+        height: 90vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+    
+    #logo-main{
+        text-align: center;
+    }
+    
+    .logo-container{
+        background: rgba(0, 0, 0, 0.8);
+        height: 90vh;
+    }
+    
+}
