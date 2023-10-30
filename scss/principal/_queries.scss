@@ -48,14 +48,13 @@
         justify-content: center;
         text-align: center;
     }
-    .imagen-nosotros{
+    main .imagen-nosotros{
         display: flex;
         justify-content: center;
         text-align: center;
         max-width: 300px;
         margin: auto;
     }
-
     /*Nuestros CLIENTES*/
     .imagenes-empresas{
     text-align: center;
@@ -79,7 +78,6 @@
         width: 100%;
         height: 550px;
     }
-
     /*CONTACTENOS*/
     .form-group{
         margin-left: 0;
@@ -101,7 +99,6 @@
         margin-left: 0;
         
     }
-    
     #form-boton-borrar{
         background-color: rgb(250, 150, 0);
         color: black;
@@ -113,7 +110,6 @@
         margin-left:2%; 
         margin-right: 20%;
     }
-
     /*Cotizaciones*/
     .texto-cotizacion-alquiler h1{
         text-align: center;
@@ -123,7 +119,6 @@
         margin-left: 0;
         margin-right: 0;
     }
-    
     .texto-cotizacion-alquiler h3{
         margin-top: 25px;
         font-family: 'Merriweather', serif;
